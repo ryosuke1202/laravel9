@@ -12,7 +12,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * ユーザーのログイン処理
      *
-     * @param User|null $user
+     * @param User|null $user 
      * @return User $user
      */
     public function login(User $user = null)
